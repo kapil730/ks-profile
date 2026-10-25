@@ -1,0 +1,23 @@
+{
+  "name": "kapil-shah-portfolio-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run client:build && npm run server:build",
+    "lint": "npm --prefix client run lint",
+    "client:dev": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "server:dev": "npm --prefix server run dev",
+    "server:build": "npm --prefix server run build",
+    "server:seed": "npm --prefix server run seed",
+    "install:all": "npm --prefix client install && npm --prefix server install"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Kapil Shah"
+}
